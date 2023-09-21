@@ -1,0 +1,148 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Clase fixed-width container que se "autocentrará" a sí misma */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+  /* Estilo para el botón */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0d5db3; 
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+  /* Clase para filas (row) de columnas flexibles */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+  /* Clase para columnas (col) en un sistema de columnas flexibles */
+.col {
+    flex: 1;
+    padding: 15px;
+}
+
+  /* Clase para una barra de navegación con flexbox */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; 
+    color: #fff;
+    padding: 10px 20px;
+}
+
+/* Botón de estilo primario */
+.primary-btn {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Botón de estilo secundario */
+.secondary-btn {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Encabezado de página */
+.page-header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* Tarjeta con sombra */
+.shadow-card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+/* Estilos para etiquetas de alerta */
+.alert {
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.success-alert {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.error-alert {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+/* Estilos para imágenes redondas */
+.round-image {
+    border-radius: 50%;
+}
+
+/* Estilos para un pie de página simple */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para una barra de navegación pegajosa */
+.sticky-navbar {
+    position: sticky;
+    top: 0;
+    background-color: #353333;
+    z-index: 100;
+}
+
+/* Estilos para una lista de elementos */
+.custom-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.custom-list li {
+    margin-bottom: 10px;
+}
+
+/* Estilos para un botón de icono */
+.icon-btn {
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.icon-btn:hover {
+    background-color: #eee;
+}
